@@ -1,28 +1,27 @@
-PARA MINHA NENÉM ♡
+PARA MINHA NENÉM ♡ — VERSÃO PARA GITHUB PAGES
 
-COMO ADICIONAR AS FOTOS
-1. Abra a pasta assets/photos.
-2. Coloque suas dez fotografias nessa pasta.
-3. Nomeie exatamente assim:
-   1.jpg
-   2.jpg
-   3.jpg
-   ...
-   10.jpg
+ESTRUTURA
+Todos os arquivos estão na mesma pasta:
+- index.html: página principal
+- style.css: estilos
+- script.js: interações
+- 1.jpg até 10.jpg: fotografias do mural
 
-Se suas fotos forem PNG ou WebP, altere a extensão nos caminhos das imagens em index.html.
-Dica: use imagens verticais ou quadradas e, se possível, otimize-as para WebP para carregar mais rápido.
+COMO PUBLICAR NO GITHUB
+1. Extraia este ZIP no computador.
+2. Abra o repositório do seu site no GitHub.
+3. Clique em Add file > Upload files.
+4. Selecione todos os arquivos desta pasta (incluindo index.html, style.css, script.js e as 10 fotos) e arraste para a área de envio.
+5. Faça o commit das alterações.
+6. Em Settings > Pages, configure a publicação pela branch principal (geralmente main) e pela pasta /(root), se ainda não estiver ativada.
 
-COMO ABRIR
-- Extraia o ZIP.
-- Abra index.html no navegador.
-- Para publicar, envie a pasta inteira para Netlify ou GitHub Pages.
+IMPORTANTE
+- Não envie o ZIP fechado ao repositório esperando que o site seja publicado. Extraia primeiro e envie os arquivos que estão dentro dele.
+- O index.html já foi atualizado para localizar style.css, script.js e as fotos diretamente na mesma pasta.
+- As fontes decorativas são carregadas do Google Fonts quando há internet.
 
 PERSONALIZAÇÃO
-- Legendas: edite os textos dentro de <figcaption> em index.html.
-- Carta: edite os parágrafos dentro de #letterText.
-- Data inicial: altere a linha `new Date(2026, 5, 9)` em js/script.js.
-- Estilo: edite css/style.css.
-
-OBSERVAÇÃO
-As fontes decorativas são carregadas do Google Fonts quando há internet. O restante do site funciona localmente.
+- Legendas e textos: edite index.html.
+- Carta: edite os parágrafos dentro de #letterText no index.html.
+- Data inicial do contador: altere `new Date(2026, 5, 9)` em script.js.
+- Aparência: edite style.css.
