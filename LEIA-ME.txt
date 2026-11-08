@@ -1,0 +1,28 @@
+PARA MINHA NENÉM ♡
+
+COMO ADICIONAR AS FOTOS
+1. Abra a pasta assets/photos.
+2. Coloque suas dez fotografias nessa pasta.
+3. Nomeie exatamente assim:
+   1.jpg
+   2.jpg
+   3.jpg
+   ...
+   10.jpg
+
+Se suas fotos forem PNG ou WebP, altere a extensão nos caminhos das imagens em index.html.
+Dica: use imagens verticais ou quadradas e, se possível, otimize-as para WebP para carregar mais rápido.
+
+COMO ABRIR
+- Extraia o ZIP.
+- Abra index.html no navegador.
+- Para publicar, envie a pasta inteira para Netlify ou GitHub Pages.
+
+PERSONALIZAÇÃO
+- Legendas: edite os textos dentro de <figcaption> em index.html.
+- Carta: edite os parágrafos dentro de #letterText.
+- Data inicial: altere a linha `new Date(2026, 5, 9)` em js/script.js.
+- Estilo: edite css/style.css.
+
+OBSERVAÇÃO
+As fontes decorativas são carregadas do Google Fonts quando há internet. O restante do site funciona localmente.
